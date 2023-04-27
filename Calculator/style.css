@@ -1,0 +1,44 @@
+.root{
+height: 100%;
+width: 100%;
+}
+body{
+    font-family: 'Sigmar', cursive;
+    background-color: black;
+}
+.center{
+    text-align: center;
+    color: yellow;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0px;
+}
+.input{
+    font-size: 19px;
+    margin: 0px;
+    padding: 12px 0px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.color{
+    background-color: yellow;
+}
+.clear{
+    background-color: brown;
+}
